@@ -42,7 +42,7 @@ for item in k1:
     item=item[0].upper()+item[1:]
     keyword=keyword+item+' '
 keyword=keyword.strip(' ')
-address = os.path.join(os.path.dirname(os.path.abspath(__file__)) , 'chromedriver (3).exe')
+address = os.path.join(os.path.dirname(os.path.abspath(__file__)) , 'chromedriver.exe')
 driver = webdriver.Chrome(executable_path = address)#, options=option ) 
 adre= os.path.join(os.path.dirname(os.path.abspath(__file__)) ,'Photos', keyword)
 adr=os.path.join(adre,'links.txt')
